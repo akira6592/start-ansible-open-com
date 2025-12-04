@@ -6,7 +6,7 @@
 - [Cisco IOS 向けモジュール一覧](https://docs.ansible.com/ansible/latest/collections/cisco/ios/index.html#modules)
 
 ## 書籍
-- [Ansible構築・運用ガイドブック](https://book.mynavi.jp/ec/products/detail/id=112246)
+- [インフラの構成管理と自動化のための実践Ansible](https://www.shuwasystem.co.jp/book/9784798068725.html)
   - VyOS 向けPlaybookあり
 - [ネットワーク自動化とプログラマビリティ](https://www.oreilly.co.jp/books/9784873119816/)
   - Ansible を含めたネットワーク自動化に必要な情報が詰まった書籍
