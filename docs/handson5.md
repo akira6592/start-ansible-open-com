@@ -11,7 +11,9 @@
 
 # 5-1. Playbookの作成
 
-本ハンズオンは、vi などのエディタを利用してご自身でPlaybookを作成していただきます。
+
+
+本ハンズオンで利用する Playbook は、vi などのエディタを利用して **ご自身で作成** していただきます。
 
 インターフェース `GigabitEthernet3` に、`changed_by_ansible` というdescriptionを設定するPlaybookをエディタを利用して `handson5.yml` として作成してください。
 
@@ -143,5 +145,6 @@ ios01 | SUCCESS => {
 ---
 
 🏠 [`README.md` に戻る](../README.md)
+
 
 
