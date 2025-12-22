@@ -15,7 +15,7 @@
 
 インターフェース `GigabitEthernet3` に、`changed_by_ansible` というdescriptionを設定するPlaybookをエディタを利用して `handson5.yml` として作成してください。
 
-`handson5.yml` の内容は以下の通りです。たたし **未完成** です。後述のヒントを参考にして完成させてください。
+`handson5.yml` の内容は以下の通りです。ただし **未完成** です。後述のヒントを参考にして完成させてください。
 
 ```yaml
 ---
@@ -145,6 +145,7 @@ ios01 | SUCCESS => {
 ---
 
 🏠 [`README.md` に戻る](../README.md)
+
 
 
 
