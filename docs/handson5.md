@@ -11,13 +11,11 @@
 
 # 5-1. Playbookの作成
 
-
-
 本ハンズオンで利用する Playbook は、vi などのエディタを利用して **ご自身で作成** していただきます。
 
 インターフェース `GigabitEthernet3` に、`changed_by_ansible` というdescriptionを設定するPlaybookをエディタを利用して `handson5.yml` として作成してください。
 
-`handson5.yml` の内容は以下の通りです。たたし未完成なので、後述のヒントを参考にして完成させてください。
+`handson5.yml` の内容は以下の通りです。たたし **未完成** です。後述のヒントを参考にして完成させてください。
 
 ```yaml
 ---
@@ -30,7 +28,9 @@
     - name: config interface description
       cisco.ios.ios_interfaces:
         config:
-          - name: GigabitEthernet3    # この下からは未完成
+        # この下からは未完成
+
+
 ```
 
 Playbook の実行により、以下のコンフィグが投入される想定です。
@@ -44,9 +44,9 @@ interface GigabitEthernet3
 
 タスク1は、[`cisco.ios.ios_interfaces` モジュール](https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_interfaces_module.html)を利用して、Cisco IOS 機器のインターフェースの description を設定するタスクです。
 
-未完成の Playbook では、設定対象のインターフェース名を指定する `name` まではありますが、肝心の `description` を設定するためのパラメーターがありません。
+上記の未完成の Playbook では、`config` という、設定を指定する器のようなパラメーターまではあります。しかし、そこから下の、肝心のインターフェース名や description を指定するパラメーターがありません。
 
-`description` を設定するためにどのパラメーターを指定すればよいかは、`cisco.ios.ios_interfaces` モジュールの説明ページの [`Parameters`](https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_interfaces_module.html#parameters)で調べられます。
+必要なパラメーターは、`cisco.ios.ios_interfaces` モジュールの説明ページの [`Parameters`](https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_interfaces_module.html#parameters)で調べられます。
 
 モジュールの使い方の雰囲気は、[`Examples`](https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_interfaces_module.html#examples)を見るとつかめます。
 
@@ -138,7 +138,7 @@ ios01 | SUCCESS => {
 
 # 🎉 GOAL 🎉
 
-ハンズオンコンテンツはすべて完了です。お疲れさまでした。
+ハンズオンコンテンツはすべて完了です。お疲れさまでした！
 
 スライド資料にお戻りください。
 
