@@ -52,7 +52,7 @@ interface GigabitEthernet3
 
 仕事は学校のテストではないので、このように調べながら進めることも多いです。
 
-※ なお、完成版の Playbook は [../playbooks/handson5.yml](../playbooks/handson5.yml) にあります。答え合わせや、分からかった場合に参照してください。
+※ なお、完成版の Playbook は [../playbooks/handson5.yml](../playbooks/handson5.yml) にあります。答え合わせや、分からなかった場合に参照してください。
 
 # 5-2. Playbookの実行
 
@@ -145,6 +145,7 @@ ios01 | SUCCESS => {
 ---
 
 🏠 [`README.md` に戻る](../README.md)
+
 
 
 
